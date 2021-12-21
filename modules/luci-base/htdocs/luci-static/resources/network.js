@@ -834,6 +834,10 @@ Network = baseclass.extend(/** @lends LuCI.network.prototype */ {
 
 			renderFormOptions: function(section) {
 
+			},
+
+			renderStatus: function(node, extended) {
+			    return null;
 			}
 		}, methods, {
 			__init__: function(name) {
